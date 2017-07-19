@@ -1,0 +1,151 @@
+body {
+  min-height: 100vh;
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 10% 30% 60%;
+  grid-template-rows: repeat(19, 1fr);
+  grid-template-areas:
+    "header header header"
+    "Categories Column2 Column3"
+    "Drama Column2 Column3"
+    "Romance Column2 Column3"
+    "Action Column2 Column3"
+    "Sci-Fi Column2 Column3"
+    "FutureCat1 Column2 Column3"
+    "FutureCat2 Column2 Column3"
+    "FutureCat3 Column2 Column3"
+    "FutureCat4 Column2 Column3"
+    "FutureCat5 Column2 Column3"
+    "FutureCat6 Column2 Column3"
+    "FutureCat7 Column2 Column3"
+    "FutureCat8 Column2 Column3"
+    "FutureCat9 Column2 Column3"
+    "FutureCat10 Column2 Column3"
+    "FutureCat11 Column2 Column3"
+    "FutureCat12 Column2 Column3"
+    "FutureCat13 Column2 Column3"
+}
+
+#sidebar {
+  border: 1px solid black;
+}
+
+#column-page-header {
+  grid-area: header;
+}
+
+#logout {
+  grid-area: header;
+  justify-self: end;
+}
+
+#categories {
+  grid-area: Categories;
+}
+
+#drama {
+  grid-area: Drama;
+}
+
+#romance {
+  grid-area: Romance;
+}
+
+#action {
+  grid-area: Action;
+}
+
+#sci-fi {
+  grid-area: Sci-Fi;
+}
+
+#future-cat1 {
+  grid-area: FutureCat1;
+  visibility: hidden;
+}
+
+#future-cat2 {
+  grid-area: FutureCat2;
+  visibility: hidden;
+}
+
+#future-cat3 {
+  grid-area: FutureCat3;
+  visibility: hidden;
+}
+
+#future-cat4 {
+  grid-area: FutureCat4;
+  visibility: hidden;
+}
+
+#future-cat5 {
+  grid-area: FutureCat5;
+  visibility: hidden;
+}
+
+#future-cat6 {
+  grid-area: FutureCat6;
+  visibility: hidden;
+}
+
+#future-cat7 {
+  grid-area: FutureCat7;
+  visibility: hidden;
+}
+
+#future-cat8 {
+  grid-area: FutureCat8;
+  visibility: hidden;
+}
+
+#future-cat9 {
+  grid-area: FutureCat9;
+  visibility: hidden;
+}
+
+#future-cat10 {
+  grid-area: FutureCat10;
+  visibility: hidden;
+}
+
+#future-cat11 {
+  grid-area: FutureCat11;
+  visibility: hidden;
+}
+
+#future-cat12 {
+  grid-area: FutureCat12;
+  visibility: hidden;
+}
+
+#future-cat13 {
+  grid-area: FutureCat13;
+  visibility: hidden;
+}
+
+#column2 {
+  grid-area: Column2;
+  overflow: auto;
+  border: 1px solid black;
+  background-color: silver;
+}
+
+#column3 {
+  grid-area: Column3;
+  overflow: auto;
+  border: 1px solid black;
+  background-color: red;
+}
+
+#moviesTitle {
+  grid-area: Column2;
+}
+
+#drama {
+
+}
+
+#play1 {
+
+}
